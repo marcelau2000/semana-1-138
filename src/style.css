@@ -1,3 +1,43 @@
 body{
-    min-width: 1200px;
+
+    font-family: 'Times New Roman';
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.seccion-superior{
+    background: blue;
+}
+.seccion-footer{
+    background: blue;
+    
+}
+.footer{
+    display: flex;
+}
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+.titulo-principal, .contenedor-menu{
+    width: 50%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-titulo{
+    position: absolute;
+    color: white;
+}
+
+
