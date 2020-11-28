@@ -13,8 +13,31 @@ body{
     background: blue;
     
 }
+.contacto{
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
 .footer{
+    height: 120px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center
+}
+.datos-sitio{
+    width: 30%;
+    font-size: 80%;
+    
+}
+.titulo-contacto{
+    text-align:center;
+}
+.datos-contacto{
+    width: 60%;
+    font-size: 80%;
+    
+    
 }
 .barra{
     display: flex;
